@@ -57,7 +57,7 @@ class Bmp(BmpFileHeader, BmpStructHeader):
         return self.bit_count * self.width
 
 # load BMP文件
-def load_bmp(self, file_name):
+def load_bmp(self, file):
     # BmpFileHeader
     self.bfType = file.read(2)
     self.bfSize = file.read(4)
@@ -75,6 +75,8 @@ def load_bmp(self, file_name):
                                      'little') -
                       int.from_bytes(self.bfOffBits, 'little')) \
                      // (int.from_bytes(self.biBitCount, 'little') // 8)
+    print("bitsize:", self.__bitSize)
+
     self.biCompression = file.read(4)
     self.biSizeImage = file.read(4)
     self.biXPelsPerMeter = file.read(4)
@@ -92,7 +94,6 @@ def load_bmp(self, file_name):
     file.close()
 
 
-file = open("pic/number_0.bmp", 'rb')
-print(file.read())
+load_bmp(file, "pic/hour_0.bmp")
 
 # load_bmp("pic/numnber_0.bmp");
