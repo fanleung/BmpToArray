@@ -92,7 +92,7 @@ def load_bmp(self, file_name):
     file.close()
 
 
-# file = open("pic/number_0.bmp", 'rb')
-# print(file.read())
+file = open("pic/number_0.bmp", 'rb')
+print(file.read())
 
 # load_bmp("pic/numnber_0.bmp");

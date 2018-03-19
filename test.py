@@ -1,27 +1,33 @@
 import binascii
 
-# form="16"
-# file_name = input("Enter name of 24-bit bitmap: ")
-file_name = "pic/number_0.bmp"
-if file_name.endswith(".bmp"):
-    file_name = file_name.rstrip(".bmp")
-infile = open(file_name + ".bmp", "rb")
-outfile = open(file_name + "array.c", "w")
-# while form!="16" and form!="24":
-#    form = input("Output in 24 bpp or 16 bpp? (Enter 24 or 16) :")
-x = str(infile.read(2), 'utf-8', 'strict')
-if x != 'BM':
-    outfile.write("Not bitmap format, things might be messed up\n")
 
+# 0xDC,0xDC,0xDC,0xDC,0xDC,0xDC,0xDC,0xDC,0xDC,0xDC,/*"F:\代码\AB221\新建文件夹 (3)\表盘1\number_0.bmp",0*/
+
+# 打开文件
+file_name = "pic/number_10.bmp"
+infile = open(file_name, "rb")
+print(infile.read())
+
+outfile = open("array.txt", "w")
+
+
+# seek移动文件读取指针
 infile.seek(0xA, 0)
 start = int.from_bytes(infile.read(2), byteorder='little')
+print("start:",start)
+
 infile.seek(0x12, 0)
-# width=infile.read(4).hex()
 width = int.from_bytes(infile.read(4), byteorder='little')
+print("width:", width)
+
 height = int.from_bytes(infile.read(4), byteorder='little')
+print("height:", height)
+
 
 infile.seek(0x1C, 0)
 bytesperpixel = int(int.from_bytes(infile.read(4), byteorder='little') / 8)
+print("bytesperpixel:", bytesperpixel)
+
 
 infile.seek(start, 0)
 array = []
