@@ -16,7 +16,8 @@ if os.path.exists("array.txt"):
 outfile = open("array.txt", "w")
 
 # 读取文件
-file_path = r"pic/"
+# file_path = r"pic/"
+file_path = r"./"
 dirs = os.listdir(file_path)
 for i in dirs:
     DataIndex = 0
