@@ -7,7 +7,7 @@ import os
 
 # 需要用到的中间变量
 DataArray = []  # 每个图片的数组
-DataLength = 0  # 数组的长度
+DataIndex = 0   # 数组当前的写坐标
 temp = 0        # 一个字节
 
 # 输出文件
@@ -19,7 +19,7 @@ outfile = open("array.txt", "w")
 file_path = r"pic/"
 dirs = os.listdir(file_path)
 for i in dirs:
-    DataLength = 0
+    DataIndex = 0
     if os.path.splitext(i)[1] == ".bmp":
         # 打开文件
         filename = os.path.splitext(i)[0]
@@ -59,20 +59,20 @@ for i in dirs:
                 # 一个字节了
                 if((w + 1)%8 == 0 and w != 0):
                     # print("output temp: ", temp)
-                    DataArray.insert(DataLength, temp)
-                    DataLength += 1
+                    DataArray.insert(DataIndex, temp)
+                    DataIndex += 1
                     temp = 0
         outfile.write("const uint8_t {0}[] = {{".format(filename))
 
-        for i in range(DataLength -1):
+        for i in range(DataIndex - 1):
             if(i % row == 0):
                 outfile.write("\n")
             outfile.write("0x{:02x},".format(DataArray[i]))
 
-    if((DataLength-1)%row == 0):
-        outfile.write("\n0x{:02x},\n}};\n\n".format(DataArray[DataLength - 1]))
+    if((DataIndex - 1)%row == 0):
+        outfile.write("\n0x{:02x},\n}};\n\n".format(DataArray[DataIndex - 1]))
     else:
-        outfile.write("0x{:02x},\n}};\n\n".format(DataArray[DataLength - 1]))
+        outfile.write("0x{:02x},\n}};\n\n".format(DataArray[DataIndex - 1]))
 
 outfile.close()
 
