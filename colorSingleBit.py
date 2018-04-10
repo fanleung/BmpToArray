@@ -40,12 +40,14 @@ for i in range(len(allFile)):
                 filename = os.path.splitext(j)[0]
                 fileType = ".bmp"
                 img=Image.open(allFile[i] + '/' + filename + fileType)
+                print(allFile[i] + '/' + filename + fileType)
 
                 # 读取文件信息
                 width=img.size[0]
                 height=img.size[1]
                 row = width // 8 + 1
                 DataLength = row * height
+                print("row: ", row)
                 print("实际宽，高:" , width,",", height)
                 print("Datalength: ",DataLength)
 
@@ -79,18 +81,18 @@ for i in range(len(allFile)):
                             DataArray.insert(DataIndex, temp)
                             DataIndex += 1
                             temp = 0
-                            outfileC.write("const uint8_t {0}[] = {{".format(filename))
+                outfileC.write("const uint8_t {0}_{1}X{2}[{3}];\n".format(filename.upper(), width, height, DataLength))
 
                 for k in range(DataIndex - 1):
                     if(k % row == 0):
                         outfileC.write("\n")
                     outfileC.write("0x{:02x},".format(DataArray[k]))
 
-            if((DataIndex - 1)%row == 0):
-                outfileC.write("\n0x{:02x},\n}};\n\n".format(DataArray[DataIndex - 1]))
-            else:
-                outfileC.write("0x{:02x},\n}};\n\n".format(DataArray[DataIndex - 1]))
-            outfileH.write("\nextern const uint8_t {0}_{1}X{2}[{3}];\n".format(filename.upper(), width, height, DataLength))
+                if((DataIndex - 1)%row == 0):
+                    outfileC.write("\n0x{:02x},\n}};\n\n".format(DataArray[DataIndex - 1]))
+                else:
+                    outfileC.write("0x{:02x},\n}};\n\n".format(DataArray[DataIndex - 1]))
+                outfileH.write("\nextern const uint8_t {0}_{1}X{2}[{3}];\n".format(filename.upper(), width, height, DataLength))
 
         outfileC.close()
         outfileH.write("\n\n#endif\n")
