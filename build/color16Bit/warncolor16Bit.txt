@@ -1,0 +1,25 @@
+missing module named resource - imported by posix, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+missing module named posix - imported by os, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+missing module named _posixsubprocess - imported by subprocess, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+missing module named org - imported by pickle, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+missing module named readline - imported by cmd, code, pdb, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+missing module named _winreg - imported by platform, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+missing module named 'java.lang' - imported by platform, F:\Fanleung's project\Python\BmpToArray\color16Bit.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+missing module named termios - imported by tty, F:\Fanleung's project\Python\BmpToArray\color16Bit.py, getpass
+missing module named grp - imported by shutil, tarfile, pathlib, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, pathlib, F:\Fanleung's project\Python\BmpToArray\color16Bit.py, netrc, getpass
+missing module named _dummy_threading - imported by dummy_threading, F:\Fanleung's project\Python\BmpToArray\color16Bit.py
+missing module named 'org.python' - imported by copy, F:\Fanleung's project\Python\BmpToArray\color16Bit.py, xml.sax
+missing module named olefile - imported by PIL.MicImagePlugin, PIL.FpxImagePlugin
+missing module named Tkinter - imported by PIL.ImageTk
+missing module named 'PySide.QtCore' - imported by PIL.ImageQt
+missing module named 'PyQt4.QtCore' - imported by PIL.ImageQt
+missing module named 'PyQt5.QtCore' - imported by PIL.ImageQt
+missing module named pathlib2 - imported by PIL.Image
+missing module named cffi - imported by PIL.Image, PIL.PyAccess, PIL.ImageTk
+missing module named __builtin__ - imported by PIL.Image

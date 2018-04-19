@@ -22,6 +22,8 @@ for i in range(len(allFile)):
         if os.path.exists(allFile[i] + ".c"):
             os.remove(allFile[i] + ".c")
         outfileC = open(allFile[i] + ".c", "w")
+        outfileC.write("#include \"" + allFile[i] + ".h\"\n\n")
+
 
         # 创建和文件夹同名的C文件
         if os.path.exists(allFile[i] + ".h"):

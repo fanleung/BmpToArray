@@ -22,8 +22,10 @@ for i in range(len(allFile)):
         if os.path.exists(allFile[i] + ".c"):
             os.remove(allFile[i] + ".c")
         outfileC = open(allFile[i] + ".c", "w")
+        outfileC.write("#include \""+ allFile[i] + ".h\"\n\n")
 
-        # 创建和文件夹同名的C文件
+
+        # 创建和文件夹同名的H文件
         if os.path.exists(allFile[i] + ".h"):
             os.remove(allFile[i] + ".h")
         outfileH = open(allFile[i] + ".h", "w")
@@ -81,7 +83,7 @@ for i in range(len(allFile)):
                             DataArray.insert(DataIndex, temp)
                             DataIndex += 1
                             temp = 0
-                outfileC.write("const uint8_t {0}_{1}X{2}[{3}];\n".format(filename.upper(), width, height, DataLength))
+                outfileC.write("const uint8_t {0}_{1}X{2}[{3}] = {{\n".format(filename.upper(), width, height, DataLength))
 
                 for k in range(DataIndex - 1):
                     if(k % row == 0):
