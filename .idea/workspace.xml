@@ -2,36 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11fd5ab5-2811-4ecb-8f03-910f88525b51" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/color/8.bmp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/color12Bit.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/pic/2.bmp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/array.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/color16Bit/base_library.zip" afterPath="$PROJECT_DIR$/build/color16Bit/base_library.zip" />
-      <change beforePath="$PROJECT_DIR$/build/color16Bit/out00-Analysis.toc" afterPath="$PROJECT_DIR$/build/color16Bit/out00-Analysis.toc" />
-      <change beforePath="$PROJECT_DIR$/build/color16Bit/out00-EXE.toc" afterPath="$PROJECT_DIR$/build/color16Bit/out00-EXE.toc" />
-      <change beforePath="$PROJECT_DIR$/build/color16Bit/out00-PKG.pkg" afterPath="$PROJECT_DIR$/build/color16Bit/out00-PKG.pkg" />
-      <change beforePath="$PROJECT_DIR$/build/color16Bit/out00-PKG.toc" afterPath="$PROJECT_DIR$/build/color16Bit/out00-PKG.toc" />
-      <change beforePath="$PROJECT_DIR$/build/color16Bit/out00-PYZ.pyz" afterPath="$PROJECT_DIR$/build/color16Bit/out00-PYZ.pyz" />
-      <change beforePath="$PROJECT_DIR$/build/color16Bit/out00-PYZ.toc" afterPath="$PROJECT_DIR$/build/color16Bit/out00-PYZ.toc" />
-      <change beforePath="$PROJECT_DIR$/build/color16Bit/warncolor16Bit.txt" afterPath="$PROJECT_DIR$/build/color16Bit/warncolor16Bit.txt" />
-      <change beforePath="$PROJECT_DIR$/build/colorSingleBit/base_library.zip" afterPath="$PROJECT_DIR$/build/colorSingleBit/base_library.zip" />
-      <change beforePath="$PROJECT_DIR$/build/colorSingleBit/out00-Analysis.toc" afterPath="$PROJECT_DIR$/build/colorSingleBit/out00-Analysis.toc" />
-      <change beforePath="$PROJECT_DIR$/build/colorSingleBit/out00-EXE.toc" afterPath="$PROJECT_DIR$/build/colorSingleBit/out00-EXE.toc" />
-      <change beforePath="$PROJECT_DIR$/build/colorSingleBit/out00-PKG.pkg" afterPath="$PROJECT_DIR$/build/colorSingleBit/out00-PKG.pkg" />
-      <change beforePath="$PROJECT_DIR$/build/colorSingleBit/out00-PKG.toc" afterPath="$PROJECT_DIR$/build/colorSingleBit/out00-PKG.toc" />
-      <change beforePath="$PROJECT_DIR$/build/colorSingleBit/out00-PYZ.pyz" afterPath="$PROJECT_DIR$/build/colorSingleBit/out00-PYZ.pyz" />
-      <change beforePath="$PROJECT_DIR$/build/colorSingleBit/out00-PYZ.toc" afterPath="$PROJECT_DIR$/build/colorSingleBit/out00-PYZ.toc" />
-      <change beforePath="$PROJECT_DIR$/build/colorSingleBit/warncolorSingleBit.txt" afterPath="$PROJECT_DIR$/build/colorSingleBit/warncolorSingleBit.txt" />
+      <change beforePath="$PROJECT_DIR$/UI.c" afterPath="$PROJECT_DIR$/UI.c" />
+      <change beforePath="$PROJECT_DIR$/UI.h" afterPath="$PROJECT_DIR$/UI.h" />
+      <change beforePath="$PROJECT_DIR$/UI.txt" afterPath="$PROJECT_DIR$/UI.txt" />
+      <change beforePath="$PROJECT_DIR$/color/a.bmp" afterPath="$PROJECT_DIR$/pic/a.bmp" />
+      <change beforePath="$PROJECT_DIR$/color/b.bmp" afterPath="$PROJECT_DIR$/pic/b.bmp" />
+      <change beforePath="$PROJECT_DIR$/color/d.bmp" afterPath="$PROJECT_DIR$/pic/d.bmp" />
+      <change beforePath="$PROJECT_DIR$/color/e.bmp" afterPath="$PROJECT_DIR$/pic/e.bmp" />
+      <change beforePath="$PROJECT_DIR$/color/f.bmp" afterPath="$PROJECT_DIR$/pic/f.bmp" />
       <change beforePath="$PROJECT_DIR$/color16Bit.py" afterPath="$PROJECT_DIR$/color16Bit.py" />
-      <change beforePath="$PROJECT_DIR$/color16Bit.spec" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/colorSingleBit.py" afterPath="$PROJECT_DIR$/colorSingleBit.py" />
-      <change beforePath="$PROJECT_DIR$/colorSingleBit.spec" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dist/color16Bit.exe" afterPath="$PROJECT_DIR$/dist/color16Bit.exe" />
-      <change beforePath="$PROJECT_DIR$/dist/colorSingleBit.exe" afterPath="$PROJECT_DIR$/dist/colorSingleBit.exe" />
-      <change beforePath="$PROJECT_DIR$/pic/a.bmp" afterPath="$PROJECT_DIR$/color/a.bmp" />
-      <change beforePath="$PROJECT_DIR$/pic/b.bmp" afterPath="$PROJECT_DIR$/color/b.bmp" />
-      <change beforePath="$PROJECT_DIR$/pic/d.bmp" afterPath="$PROJECT_DIR$/color/d.bmp" />
-      <change beforePath="$PROJECT_DIR$/pic/e.bmp" afterPath="$PROJECT_DIR$/color/e.bmp" />
-      <change beforePath="$PROJECT_DIR$/pic/number_00.bmp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/pic/number_10.bmp" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ui_exflash_address_map.h" afterPath="$PROJECT_DIR$/ui_exflash_address_map.h" />
+      <change beforePath="$PROJECT_DIR$/ui_save_exflash.c" afterPath="$PROJECT_DIR$/ui_save_exflash.c" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,23 +25,43 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="F:\Fanleung's project\Python\BmpToArray\exportToHTML" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="colorSingleBit.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="colorSingleBit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/colorSingleBit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="color12Bit.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/color12Bit.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="605">
+              <caret line="175" column="18" lean-forward="true" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="8.bmp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/color/8.bmp">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="color16Bit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/color16Bit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+            <state relative-caret-position="1121">
+              <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -86,16 +91,17 @@
         <option value="$PROJECT_DIR$/test1.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/UI.txt" />
-        <option value="$PROJECT_DIR$/color16Bit.py" />
         <option value="$PROJECT_DIR$/colorSingleBit.py" />
         <option value="$PROJECT_DIR$/color16Bit.spec" />
+        <option value="$PROJECT_DIR$/color16Bit.py" />
+        <option value="$PROJECT_DIR$/color12Bit.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="54" />
-    <option name="y" value="-8" />
-    <option name="width" value="1421" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="57" />
+    <option name="y" value="3" />
+    <option name="width" value="1846" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -116,8 +122,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,15 +129,12 @@
               <item name="BmpToArray" type="b2602c69:ProjectViewProjectNode" />
               <item name="BmpToArray" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="BmpToArray" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BmpToArray" type="462c0819:PsiDirectoryNode" />
-              <item name="color" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -141,14 +142,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Fanleung's project\Python\BmpToArray\color" />
+      <recent name="F:\Fanleung's project\Python\BmpToArray" />
+      <recent name="F:\Fanleung's project\Python\BmpToArray\pic" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Fanleung's project\Python\BmpToArray\color" />
       <recent name="F:\Fanleung's project\Python\BmpToArray\pic" />
       <recent name="F:\Fanleung's project\Python\BmpToArray\reference_code" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Fanleung's project\Python\BmpToArray\pic" />
-      <recent name="F:\Fanleung's project\Python\BmpToArray" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -163,8 +165,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.color16Bit">
-    <configuration name="aaa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.color12Bit">
+    <configuration name="color12Bit" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -176,7 +178,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BmpToArray" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/aaa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/color12Bit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -218,24 +220,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="BmpToArray" />
-      <option name="SCRIPT_NAME" value="F:\Fanleung's project\Python\BmpToArray\colorSingleBit.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -248,26 +232,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="BmpToArray" />
-      <option name="SCRIPT_NAME" value="F:\Fanleung's project\Python\BmpToArray\color16Bit.py" />
+      <option name="SCRIPT_NAME" value="F:\Fanleung's project\Python\BmpToArray\color12Bit.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.test2" />
-      <item index="2" class="java.lang.String" itemvalue="Python.aaa" />
-      <item index="3" class="java.lang.String" itemvalue="Python.colorSingleBit" />
-      <item index="4" class="java.lang.String" itemvalue="Python.color16Bit" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.test2" />
+      <item index="1" class="java.lang.String" itemvalue="Python.colorSingleBit" />
+      <item index="2" class="java.lang.String" itemvalue="Python.color12Bit" />
+      <item index="3" class="java.lang.String" itemvalue="Python.color16Bit" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.color16Bit" />
-        <item index="1" class="java.lang.String" itemvalue="Python.colorSingleBit" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test2" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test1" />
-        <item index="4" class="java.lang.String" itemvalue="Python.aaa" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.color12Bit" />
+        <item index="1" class="java.lang.String" itemvalue="Python.color16Bit" />
+        <item index="2" class="java.lang.String" itemvalue="Python.colorSingleBit" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -288,24 +270,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1874" height="1096" extended-state="6" />
+    <frame x="57" y="3" width="1846" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.124035284" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12610619" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5043573" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32467532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4189636" sideWeight="0.4956427" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23068309" sideWeight="0.4956427" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28463203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28463203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32467532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -318,30 +301,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/color16Bit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorSingleBit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1444">
-          <caret line="76" column="15" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="76" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color16Bit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/colorSingleBit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1444">
@@ -350,7 +309,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/color16Bit.py">
+    <entry file="file://$PROJECT_DIR$/color12Bit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
@@ -389,11 +348,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pic/number_0array.c" />
-    <entry file="file://$PROJECT_DIR$/pic/number_00.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/number_00.bmp" />
     <entry file="file://$PROJECT_DIR$/pic/number_1.bmp">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -433,11 +388,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pic/number_10.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/number_10.bmp" />
     <entry file="file://$PROJECT_DIR$/pic/number_9.bmp">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -472,7 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -480,15 +430,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array.txt" />
+    <entry file="file://$PROJECT_DIR$/pic/f.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/d.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/b.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/a.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pic/e.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color16Bit.spec" />
+    <entry file="file://$PROJECT_DIR$/colorSingleBit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array.txt">
+    <entry file="file://$PROJECT_DIR$/UI.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1425">
-          <caret line="75" column="47" lean-forward="false" selection-start-line="75" selection-start-column="47" selection-end-line="75" selection-end-column="47" />
-          <folding />
+        <state relative-caret-position="57">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -496,63 +479,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color/f.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color/d.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color/b.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color/a.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color/e.bmp">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/color16Bit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="62" column="17" lean-forward="false" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
+        <state relative-caret-position="1121">
+          <caret line="61" column="22" lean-forward="false" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colorSingleBit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="62" column="17" lean-forward="true" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/color/ball.bmp" />
+    <entry file="file://$PROJECT_DIR$/color/8.bmp">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/color16Bit.spec">
+    <entry file="file://$PROJECT_DIR$/color12Bit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="605">
+          <caret line="175" column="18" lean-forward="true" selection-start-line="175" selection-start-column="18" selection-end-line="175" selection-end-column="18" />
           <folding />
         </state>
       </provider>

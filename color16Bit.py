@@ -58,9 +58,9 @@ outfileSave.write("\tflash_device_power_down_set(false);\n")
 
 
 # 读取文件
-# file_path = r"color/"
+file_path = r"color/"
 # file_path = r"Time/"
-file_path = r"./"
+# file_path = r"./"
 dirs = os.listdir(file_path)
 for i in dirs:
     DataIndex = 0
