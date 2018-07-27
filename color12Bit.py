@@ -4,6 +4,9 @@ import os
 
 # 取高位的数据
 
+
+count = 0
+
 # 需要用到的中间变量
 DataArray = []  # 每个图片的数组
 DataLength = 0  # 数组的长度
@@ -82,6 +85,8 @@ for i in dirs:
         print("实际宽，高:" , width,",", height)
         print("数组大小:", DataLength)
 
+        count += DataLength
+
         if( width % 2 == 0):
             for h in range(height):
                 w = 0
@@ -148,8 +153,8 @@ for i in dirs:
         for i in range(DataLength):
             if(i % (16) == 0):
                 outfileC.write("\n")
-            outfileC.write("0x{:02x},".format(DataArray[i]))
-            outfileTXT.write("0x{:02x},".format(DataArray[i]))
+            outfileC.write("0X{:02X},".format(DataArray[i]))
+            outfileTXT.write("0X{:02X},".format(DataArray[i]))
 
         outfileC.write("\n};\n")
         outfileTXT.write("\n};\n")
@@ -158,9 +163,9 @@ for i in dirs:
         # todo 写map文件
         if(SkipCount == 1):
             SkipCount = 0
-            outfileMap.write("#define {0}_{1}X{2}__ADDR     {3}\n".format(filename, width, height, startAddress))
+            outfileMap.write("#define {0}_{1}X{2}_ADDR     {3}\n".format(filename, width, height, startAddress))
         else:
-            outfileMap.write("#define {0}_{1}X{2}__ADDR     ({3}_{4}X{5}__ADDR + sizeof({6}_{7}X{8}))\n".format(
+            outfileMap.write("#define {0}_{1}X{2}_ADDR     ({3}_{4}X{5}_ADDR + sizeof({6}_{7}X{8}))\n".format(
                 filename, width, height, PreFilename, PreWidth, PreHeight, PreFilename, PreWidth, PreHeight))
 
         # todo 写save.c文件
@@ -176,9 +181,11 @@ outfileC.close()
 outfileTXT.close()
 outfileH.write("\n\n#endif\n")
 outfileH.close()
-outfileMap.write("#define UI_FINISH_ADDR    ({0}_{1}X{2}__ADDR + sizeof({3}_{4}X{5}))\n".format(filename, width, height, filename, width, height))
+outfileMap.write("#define UI_FINISH_ADDR    ({0}_{1}X{2}_ADDR + sizeof({3}_{4}X{5}))\n".format(filename, width, height, filename, width, height))
 outfileMap.close()
 outfileSave.write("\tend_addr = UI_FINISH_ADDR / 1024;\n")
 outfileSave.write("\tapp_flash_write(flash_id,UI_EXFLASH_BASE_ADDR-10,10);\n")
 outfileSave.write("\n}\n")
 outfileSave.close()
+
+print("count: ", count)
