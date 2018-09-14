@@ -1,5 +1,8 @@
 #coding=utf-8
 
+# 通过bin2Hex
+
+
 import struct
 import os
 import sys
@@ -13,7 +16,7 @@ import re
 readfile = open("UI.c")
 binfile = open("UI.bin", 'wb')
 
-list = re.findall(r"0X(\w\w)",readfile.read())
+list = re.findall(r"(?:0X|0x|0a)(\w\w)",readfile.read())
 print(list)
 
 for j in list:

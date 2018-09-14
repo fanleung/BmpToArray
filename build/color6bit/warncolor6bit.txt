@@ -1,0 +1,30 @@
+missing module named resource - imported by posix, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named posix - imported by os, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named _posixsubprocess - imported by subprocess, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named org - imported by pickle, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named clr - imported by pyreadline.clipboard.ironpython_clipboard, pyreadline.console.ironpython_console, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named IronPythonConsole - imported by pyreadline.console.ironpython_console, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named StringIO - imported by pyreadline.py3k_compat, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named System - imported by pyreadline.clipboard.ironpython_clipboard, pyreadline.keysyms.ironpython_keysyms, pyreadline.console.ironpython_console, pyreadline.rlmain, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named sets - imported by pyreadline.keysyms.common, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named startup - imported by pyreadline.keysyms.common, pyreadline.keysyms.keysyms, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named console - imported by pyreadline.console.ansi, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named _winreg - imported by platform, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named 'java.lang' - imported by platform, F:\Fanleung's project\Python\BmpToArray\color6bit.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named termios - imported by tty, F:\Fanleung's project\Python\BmpToArray\color6bit.py, getpass
+missing module named grp - imported by shutil, tarfile, pathlib, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named 'org.python' - imported by copy, F:\Fanleung's project\Python\BmpToArray\color6bit.py, xml.sax
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, pathlib, F:\Fanleung's project\Python\BmpToArray\color6bit.py, netrc, getpass
+missing module named _dummy_threading - imported by dummy_threading, F:\Fanleung's project\Python\BmpToArray\color6bit.py
+missing module named olefile - imported by PIL.MicImagePlugin, PIL.FpxImagePlugin
+missing module named Tkinter - imported by PIL.ImageTk
+missing module named 'PySide.QtCore' - imported by PIL.ImageQt
+missing module named 'PyQt4.QtCore' - imported by PIL.ImageQt
+missing module named pathlib2 - imported by PIL.Image
+missing module named cffi - imported by PIL.Image, PIL.PyAccess, PIL.ImageTk
+missing module named __builtin__ - imported by PIL.Image

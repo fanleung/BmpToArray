@@ -58,9 +58,9 @@ outfileSave.write("\tflash_device_power_down_set(false);\n")
 
 
 # 读取文件
-file_path = r"color/"
+# file_path = r"color/"
 # file_path = r"Time/"
-# file_path = r"./"
+file_path = r"./"
 dirs = os.listdir(file_path)
 for i in dirs:
     DataIndex = 0
@@ -110,9 +110,9 @@ for i in dirs:
         # todo 写map文件
         if(SkipCount == 1):
             SkipCount = 0
-            outfileMap.write("#define {0}_{1}X{2}__ADDR     {3}\n".format(filename, width, height, startAddress))
+            outfileMap.write("#define {0}_{1}X{2}_ADDR     {3}\n".format(filename, width, height, startAddress))
         else:
-            outfileMap.write("#define {0}_{1}X{2}__ADDR     ({3}_{4}X{5}__ADDR + sizeof({6}_{7}X{8}))\n".format(
+            outfileMap.write("#define {0}_{1}X{2}_ADDR     ({3}_{4}X{5}_ADDR + sizeof({6}_{7}X{8}))\n".format(
                 filename, width, height, PreFilename, PreWidth, PreHeight, PreFilename, PreWidth, PreHeight))
 
         # todo 写save.c文件
@@ -128,7 +128,7 @@ outfileC.close()
 outfileTXT.close()
 outfileH.write("\n\n#endif\n")
 outfileH.close()
-outfileMap.write("#define UI_FINISH_ADDR    ({0}_{1}X{2}__ADDR + sizeof({3}_{4}X{5}))\n".format(filename, width, height, filename, width, height))
+outfileMap.write("#define UI_FINISH_ADDR    ({0}_{1}X{2}_ADDR + sizeof({3}_{4}X{5}))\n".format(filename, width, height, filename, width, height))
 outfileMap.close()
 outfileSave.write("\tend_addr = UI_FINISH_ADDR / 1024;\n")
 outfileSave.write("\tapp_flash_write(flash_id,UI_EXFLASH_BASE_ADDR-10,10);\n")
