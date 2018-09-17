@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11fd5ab5-2811-4ecb-8f03-910f88525b51" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/markdown-exported-files.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/color16Bit.py" afterPath="$PROJECT_DIR$/color16Bit.py" />
-      <change beforePath="$PROJECT_DIR$/colorSingleBit.py" afterPath="$PROJECT_DIR$/colorSingleBit.py" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +22,7 @@
         <entry file="file://$PROJECT_DIR$/colorSingleBit.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="346">
-              <caret line="146" column="18" lean-forward="true" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
+              <caret line="146" column="18" lean-forward="false" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -31,8 +31,8 @@
       <file leaf-file-name="color12Bit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/color12Bit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="174" column="29" lean-forward="false" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
+            <state relative-caret-position="455">
+              <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -42,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/color16Bit.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-737">
-              <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+              <caret line="68" column="41" lean-forward="false" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -60,12 +60,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="color6bit.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="color6bit.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/color6bit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1619">
-              <caret line="135" column="18" lean-forward="true" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+            <state relative-caret-position="270">
+              <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="533">
+                <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor>
+                <markdownNavigatorState />
+              </second_editor>
             </state>
           </provider>
         </entry>
@@ -92,7 +107,6 @@
         <option value="$PROJECT_DIR$/aaa.py" />
         <option value="$PROJECT_DIR$/test2.py" />
         <option value="$PROJECT_DIR$/test1.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/UI.txt" />
         <option value="$PROJECT_DIR$/color16Bit.spec" />
         <option value="$PROJECT_DIR$/color12Bit.py" />
@@ -100,6 +114,7 @@
         <option value="$PROJECT_DIR$/color6bit.py" />
         <option value="$PROJECT_DIR$/color16Bit.py" />
         <option value="$PROJECT_DIR$/colorSingleBit.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -418,13 +433,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/aaa.py" />
     <entry file="file://$PROJECT_DIR$/reference_code/BmpToArray.py" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array.txt" />
     <entry file="file://$PROJECT_DIR$/pic/f.bmp">
       <provider selected="true" editor-type-id="images">
@@ -507,7 +515,7 @@
     <entry file="file://$PROJECT_DIR$/color16Bit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-737">
-          <caret line="68" column="41" lean-forward="true" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
+          <caret line="68" column="41" lean-forward="false" selection-start-line="68" selection-start-column="41" selection-end-line="68" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -515,24 +523,42 @@
     <entry file="file://$PROJECT_DIR$/colorSingleBit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
-          <caret line="146" column="18" lean-forward="true" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/color12Bit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="174" column="29" lean-forward="false" selection-start-line="174" selection-start-column="29" selection-end-line="174" selection-end-column="29" />
+          <caret line="146" column="18" lean-forward="false" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/color6bit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1619">
-          <caret line="135" column="18" lean-forward="true" selection-start-line="135" selection-start-column="18" selection-end-line="135" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="64" column="19" lean-forward="false" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/color12Bit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="533">
+            <caret line="53" column="14" lean-forward="false" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
